@@ -15,7 +15,7 @@ renamed as (
         order_id,
         payment_method,
 
-		amount
+		amount / 100 as amount
 
     from source
 
