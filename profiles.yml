@@ -6,3 +6,8 @@ jaffle_shop:
       type: duckdb
       path: 'jaffle_shop.duckdb'
       threads: 24
+    prod:
+      type: duckdb
+      path: 'jaffle_shop.duckdb'
+      schema: prod
+      threads: 24
